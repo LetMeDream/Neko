@@ -1,0 +1,21 @@
+html body div.container div.page-header a.btn.btn-lg.btn-danger{
+    background-color:#ae0707;
+    margin-left: 36%; 
+    padding: 25px 70px;
+    border-radius: 25px;
+    min-width:20%;
+}
+html body div.container div.page-headr a.btn.btn-lg.btn-danger{
+    background-color:#ae0707; 
+    padding: 25px 70px;
+    border-radius: 25px;
+    min-width:20%;
+    
+}
+html body div.container div.page-header.d-block.d-sm-none a.btn.btn-lg.btn-danger {
+    background-color:#ae0707;
+    margin-left: 0%; 
+    padding: 25px 70px;
+    border-radius: 25px;
+    min-width:20%;
+}

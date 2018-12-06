@@ -1,0 +1,34 @@
+<select name='banco'>
+                                                    <option value="">Elija un banco.</option>
+                                                    <option value="Banesco">Banesco</option>
+                                                    <option value="Venezuela">Venezuela</option>
+                                                    <option value="BOD">BOD</option>
+                                                    <option value="Mercantil">Mercantil</option>
+                                                    <option value="Bancrecer">Bancrecer</option>
+                                                    <option value="Provincial">Provincial</option>
+                                                    <option value="Nacional de Credito">Nacional de Crédito</option>
+                                                    <option value="Bancaribe">Bancaribe</option>
+                                                    <option value="Banplus">Banplus</option>
+                                                    <option value="Exterior">Exterior</option>
+                                                    <option value="Plaza">Plaza</option>
+                                                    <option value="Activo">Activo</option>
+                                                    <option value="Fondo comun">Fondo común</option>
+                                                    <option value="Banfanb">Banfanb</option>
+                                                    <option value="Caroni">Caroní</option>
+                                                    <option value="Del Sur">Del Sur</option>
+                                                    <option value="Del tesoro">Del tesoro</option>
+                                                    <option value="Bicentenario">Bicentenario</option>
+                                                    <option value="Sofitasa">Sofitasa</option>
+                                                    <option value="100% Banco">100% Banco</option>
+                                                    <option value="Mi banco">Mi banco</option>
+                                                    <option value="Bancamiga">Bancamiga</option>
+                                                    <option value="Agricola de Vnzla.">Agrícola de Vnzla.</option>
+                                                    <option value="Bancoex.">Bancoex.</option>
+                                                    <option value="Bangente.">Bangente.</option>
+                                                    <option value="Exportacion y comercio.">Exportación y comercio.</option>
+                                                    <option value="Inst. Municip. Cred. Popular">Inst. Municip. Créd. Popular</option>
+                                                    <option value="Internacional de desarollo">Internacional de desarollo</option>
+                                                    <option value="Novo Banco.">Novo Banco.</option>
+                                                    <option value="Citibank.">Citibank.</option>
+
+                                                </select> 

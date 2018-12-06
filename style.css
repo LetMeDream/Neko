@@ -1,0 +1,181 @@
+html body div.upload.text-center form input#beauti{
+    padding: 8px;
+    background-color: #c2bfbf;
+    border-radius:10px;
+}html body div.upload.text-center form input#beauti:hover{
+    
+    background-color: #e4e4e4;
+    
+}
+
+html body div.upload.text-center form input#beau{
+    padding: 8px;
+    background-color: #e66161;
+    border-radius:10px;
+}html body div.upload.text-center form input#beau:hover{
+    
+    background-color: #f08383;
+    
+}
+html body div.container-fluid.main{
+    height: 500px;
+}
+@media screen and (max-width: 992px){
+    html body div.container-fluid.main{
+        height: 600px;
+    }
+}
+html body div.container div.page-header img.img-fluid{
+    width: 75%;
+}
+/* Form advises */
+*:focus {outline: none;}
+/* Estilos tipográficos*/
+body {
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.contact_form h2, .contact_form label {
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+.form_hint, .required_notification {
+    font-size: 11px;
+
+}
+/* LI DETAILS*/
+.contact_form ul {
+    width:100%;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:4px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+/* EDGIESS (bordes)*/
+.contact_form li:first-child, .contact_form li:last-child {
+    border-bottom:1px solid #777;
+}
+/* Estilo, parte superior*/
+.contact_form h2 {
+    margin:0;
+    display: inline;
+}
+.required_notification {
+    color:#d45252; 
+    margin:5px 0 0 0; 
+    display:inline;
+    float:right; /* <- wtf , bruh?*/
+}
+/* Inputs styling*/
+.contact_form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    
+    padding:3px;
+}
+.contact_form input {
+    height:20px; 
+    width:220px; 
+    padding:1px 3px;
+}
+.contact_form input:focus { /* add this to the already existing style */
+  
+    width:240px;
+}
+.contact_form input, .contact_form textarea { /* add this to the already existing style */
+    -moz-transition: width .25s; 
+    -webkit-transition: width .25s; 
+    -o-transition: width .25s;
+    transition: width .25s;
+    
+}
+.contact_form button {
+    margin-left:156px;
+}
+/* A BIG BIG BIG ETC*/
+.contact_form input, .contact_form textarea { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}
+/* Button Style */
+button.submit {
+    background-color: #f02626;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f02626), to(#c40f0fc5));
+    background: -webkit-linear-gradient(top, #f02626, #c40f0fc5);
+    background: -moz-linear-gradient(top, #f02626, #c40f0fc5);
+    background: -ms-linear-gradient(top, #f02626, #c40f0fc5);
+    background: -o-linear-gradient(top, #f02626, #c40f0fc5);
+    background: linear-gradient(top, #f02626, #c40f0fc5);
+    border: 1px solid #c40f0fc5;
+    border-bottom: 1px solid #f02626;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #1f1b1bdc;
+    -webkit-box-shadow: 0 1px 0 0 #1f1b1bdc inset ;
+    -moz-box-shadow: 0 1px 0 0 #1f1b1bdc inset;
+    -ms-box-shadow: 0 1px 0 0 #1f1b1bdc inset;
+    -o-box-shadow: 0 1px 0 0 #1f1b1bdc inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #1f1b1bdc;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #8b131d;
+    box-shadow: 0 0 10px 5px #6b0b1b inset; 
+    -webkit-box-shadow:0 0 10px 5px #6b0b1b inset ;
+    -moz-box-shadow: 0 0 10px 5px #6b0b1b inset;
+    -ms-box-shadow: 0 0 10px 5px #6b0b1b inset;
+    -o-box-shadow: 0 0 10px 5px #6b0b1b inset;
+     
+}
+/* CORRECT RULE */
+.contact_form input:required:valid, .contact_form textarea:required:valid { /* when a field is considered valid by the browser */
+    background: #fff url(images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #b8c4b9c4;
+    border-color: #cfddd0d5;
+}
+/* docpicker */
+html body div.container-fluid.main form.contact_form ul li input#docpicker{
+    height:32px;
+}
+html body div.container div.page-header a.btn.btn-lg.btn-danger{
+    background-color:#ae0707;
+    
+    padding: 25px 70px;
+    border-radius: 18px;
+}
+html body div.container div.page-header a.btn.btn-lg.btn-danger:hover{
+    background-color:#e7191f
+    
+}
+
+html body div.container.wr{
+    text-align: center;
+}
+html body div.container.wr div.page-header.my{
+    display: inline-block;
+}
+html body div.container.wr div.page-header.my a.btn.btn-lg.btn-danger{
+    display: inline;
+    
+}
+

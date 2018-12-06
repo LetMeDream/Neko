@@ -1,0 +1,28 @@
+html body div.container.main{
+    background:url("img/logobig.jpg")  center;
+    background-size: cover;   
+    width:30%; 
+}
+@media screen and (max-width: 992px) and (min-width:768px) {
+    html body div.container.main{
+        background:url("img/logobig.jpg")  center;
+        background-size: cover;   
+        width:50%; 
+    }
+}
+@media screen and (max-width: 767px) and (min-width:577px){
+    html body div.container.main{
+        background:url("img/logobig.jpg")  center;
+        background-size: cover;   
+        width:85%; 
+    }
+    
+}
+@media screen and (max-width: 576px){
+    html body div.container.main{
+        background:url("img/logobig.jpg")  center;
+        background-size: cover;   
+        width:100%; 
+    }
+   
+}
